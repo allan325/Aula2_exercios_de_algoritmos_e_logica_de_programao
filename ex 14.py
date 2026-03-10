@@ -7,6 +7,13 @@ positivos = 0
 negativos = 0
 zeros = 0
 
+if numero > 0:
+     positivos += 1
+elif numero < 0:
+     negativos += 1
+else:
+    zeros += 1
+
 for i in range (quantidade-1):
      numero = float(input("Digite a nota:"))
      numero1.append(numero)
